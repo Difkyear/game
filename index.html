@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tetris Game test</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="background">
+      <div class="frost"></div>
+      <img src="/FpptXDHaEAMqatN.jpg" alt="" />
+      <!-- Tetris game goes here -->
 
-<body>
+      <div class="container">
+        <canvas id="tetris" width="240" height="400"></canvas>
+      </div>
+    </div>
 
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
-
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>Welcome to your first GitHub Pages website!</p>
-
-</body>
+    <script src="tetris.js"></script>
+  </body>
 </html>
